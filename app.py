@@ -7,7 +7,6 @@ from jira import JIRA
 import openai
 
 
-st.sidebar.markdown("[By Tsitsi Dalakishvili](https://www.linkedin.com/in/tsitsi-dalakishvili/)")
 
 # Streamlit App Layout
 st.title('Few Shot Prompting with OpenAI')
@@ -394,3 +393,7 @@ if app_mode == 'Manage Prompts':
         if st.button("Save Changes", key=f"save_{selected_template_idx}"):
             update_template(selected_template_idx, edited_name, edited_instructions, edited_example_input, edited_example_output, edited_query_template, edited_few_shot_count)
             st.success("Prompt template updated successfully!")
+
+
+
+st.sidebar.markdown("[By Tsitsi Dalakishvili](https://www.linkedin.com/in/tsitsi-dalakishvili/)")
