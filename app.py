@@ -6,6 +6,9 @@ import requests
 from jira import JIRA
 import openai
 
+
+st.sidebar.markdown("[By Tsitsi Dalakishvili](https://www.linkedin.com/in/tsitsi-dalakishvili/)")
+
 # Streamlit App Layout
 st.title('Few Shot Prompting with OpenAI')
 st.subheader('Connect Data To LLM')
