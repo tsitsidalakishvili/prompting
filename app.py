@@ -245,16 +245,6 @@ if app_mode == 'How it works':
 
     - Dynamic Queries: Leverage the power of dynamic variables {} in your templates to make your prompts adaptable to different queries and data points.
 
-
-
-
-
-
-
-
-
-
-
     For suggestions or questions  [Tsitsi Dalakishvili](https://www.linkedin.com/in/tsitsi-dalakishvili/)
     """)
 
