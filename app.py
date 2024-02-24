@@ -245,8 +245,7 @@ if app_mode == 'How it works':
 
     - Dynamic Queries: Leverage the power of dynamic variables {} in your templates to make your prompts adaptable to different queries and data points.
 
-     st.sidebar.markdown("[By Tsitsi Dalakishvili](https://www.linkedin.com/in/tsitsi-dalakishvili/)")
-
+    For suggestions or questions, please reach out on [LinkedIn](https://www.linkedin.com/in/tsitsi-dalakishvili/)
     """)
 
 
