@@ -4,3 +4,4 @@ requests==2.26.0
 openai==0.28.0
 plotly==5.1.0
 jira
+neo4j
