@@ -229,7 +229,7 @@ if app_mode == 'How it works':
 
     - Data Source Integration:
         - Jira: Fetch projects and issues from your Jira account. Specify the project and customize the JQL query to retrieve relevant data.
-        - Upload .csv: Easily upload your own datasets through CSV files for quick and direct analysis, enhancing flexibility in data integration.
+        - Upload .csv: Easily upload your own datasets through CSV files for quick and direct analysis
 
     - Prompt Management:
         - Add/Edit Prompt Templates: Define templates with specific instructions, example inputs/outputs, query templates, and the number of few-shot examples. These guide the LLM in generating responses based on your data.
@@ -243,9 +243,9 @@ if app_mode == 'How it works':
 
     - Utilize Few-Shot Learning: Incorporate examples in your prompts to guide the LLM. Few-shot examples can significantly improve the model's understanding and output quality.
 
-    - Dynamic Queries: Leverage the power of dynamic variables in your templates to make your prompts adaptable to different queries and data points.
+    - Dynamic Queries: Leverage the power of dynamic variables {} in your templates to make your prompts adaptable to different queries and data points.
 
-    Explore the capabilities of connecting data to LLM for an enhanced data analysis experience.
+     st.sidebar.markdown("[By Tsitsi Dalakishvili](https://www.linkedin.com/in/tsitsi-dalakishvili/)")
 
     """)
 
@@ -396,4 +396,3 @@ if app_mode == 'Manage Prompts':
 
 
 
-st.sidebar.markdown("[By Tsitsi Dalakishvili](https://www.linkedin.com/in/tsitsi-dalakishvili/)")
