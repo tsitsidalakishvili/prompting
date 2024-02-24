@@ -9,8 +9,8 @@ import openai
 
 
 # Streamlit App Layout
-st.title('Few Shot Prompting with OpenAI')
-st.subheader('Connect Data To LLM')
+st.title('Few Shot Prompting')
+st.subheader('Connect Data Source To Large Language Model')
 
 # Initialize session state
 if 'data' not in st.session_state:
